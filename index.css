@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    background: rgb(221, 221, 221);
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background: rgb(99, 99, 99);
+}
+.menu-feld{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    transition: height 1s;
+    font-size: 26px;
+}
+.menu-feld:hover{
+    height: 130%;
+    background: black;
+    color: white;
+}
+.text{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
